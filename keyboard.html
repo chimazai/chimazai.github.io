@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+body{
+	margin: 0px;
+	background-color: black;
+		}
+#menu{
+	width:100%;
+	height:38px;
+	background-image:url(pizza.jpeg);
+}
+
+.links{
+	position: relative;
+	width:32%;
+	display:inline-block;
+	border:0px solid black;
+	text-align: center;
+	font-size:30px;
+	margin:0px;
+}
+	.colors{
+
+
+		height:800px;
+		width: 32.9%;
+		display:inline-block;
+		margin:0px;
+		border:0px;
+
+
+		
+       }
+
+ 
+#onethird{
+
+
+background-color:white;
+
+
+
+}
+
+#twothird{
+
+
+background-color:white;
+
+
+
+}
+
+
+#threethird{
+
+
+background-color:white;
+
+
+
+}
+
+	</style>
+</head>
+<body>
+ 
+
+<div id="menu">
+	
+	<a href="index.html"><div class="links">Home</div></a>
+
+	<a href="journal.html"> <div class="links">Journal</div></a>
+
+	<a href="projects.html"><div  class="links">Projects</div></a>
+
+
+</div>
+
+<div class="colors" id = "onethird"></div>
+
+<div class="colors" id = "twothird"></div>
+
+<div class="colors" id = "threethird"></div>
+
+<script type="text/javascript">
+
+alert('Hello! Q-P changes colors for the first third of the page. A-L the second third, and Z-M, the last third of the page. Have fun!');
+
+document.addEventListener("click", function(){
+
+
+
+	
+})
+
+
+	document.addEventListener(
+		"keypress", function(event){
+
+		var r = Math.round(Math.random()*255)
+		var g = Math.round(Math.random()*255)
+		var b = Math.round(Math.random()*255)
+
+			console.log(r, g, b)
+			console.log(event.key);
+
+			if (event.key == 'q')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'w')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+			else if (event.key == 'e')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+else if (event.key == 'r')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 't')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+else if (event.key == 'y')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+else if (event.key == 'u')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+else if (event.key == 'i')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+else if (event.key == 'o')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+else if (event.key == 'p')
+				{ 
+					onethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+else if (event.key == 'a')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+else if (event.key == 's')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'd')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'f')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'g')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'h')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'j')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'k')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'l')
+				{ 
+					twothird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'z')
+				{ 
+					threethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'x')
+				{ 
+					threethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'c')
+				{ 
+					threethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'v')
+				{ 
+					threethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'b')
+				{ 
+					threethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'n')
+				{ 
+					threethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				else if (event.key == 'm')
+				{ 
+					threethird.style.backgroundColor = "rgb("+r + ","+g+","+ b+")";
+				}
+
+				
+
+
+		}
+		)
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

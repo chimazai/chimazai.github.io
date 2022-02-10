@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style type="text/css">
+		#menu{
+	width:100%;
+	height:38px;
+	background-image:url(pizza.jpeg);
+}
+
+.links{
+	position: relative;
+	width:32%;
+	display:inline-block;
+	border:0px solid black;
+	text-align: center;
+	font-size:30px;
+	margin:0px;
+}
+
+		
+
+            #counting{
+			width:100%;
+			height:550px;
+			background-image: url(flower.gif);
+			font-size: 250px;
+			text-align:center;
+			padding-top:300px;
+			background-repeat: no-repeat;
+			background-size:cover;
+			color: white;
+		}
+
+		.button{
+			position:absolute;
+			color:white;
+			width:100px;
+			font-size:50px;
+			height:50px;
+			text-align:center;
+			background-color:grey;
+			z-index:5;
+		}
+
+		body {margin: 0px}
+
+		#start{
+			left:400px;
+			top:600px;
+		}
+
+		#stop{
+
+
+
+		}
+
+
+		#reset{
+
+
+
+		}
+	</style>
+	
+</head>
+<body>
+<div id="menu">
+
+	<div id ="start" class="button">Start</div>
+	
+		<div id ="stop"  class="button">Stop</div>
+
+		<div id="reset" class="button">Reset</div>
+	
+	<a href="index.html"><div class="links">Home</div></a>
+
+	<a href="journal.html"> <div class="links">Journal
+
+
+	</div></a>
+	<a href="projects.html"><div  class="links">Projects</div></a>
+
+
+</div>
+	
+	<div id="counting">
+
+	
+
+
+
+	</div>
+
+
+
+		
+
+
+<script type="text/javascript">
+	 var num = 0
+
+	function counter () {
+
+
+		console.log(num);
+
+		counting.innerText = num
+		 num = num + 1
+
+
+
+}
+
+setInterval(counter, 250)
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
