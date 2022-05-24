@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<style type="text/css">
+	
+body{margin: 0px;}
+
+#box{
+			width:100%;
+			height:800px;
+			background-color:lightblue;
+		}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+<div id="box"></div>
+
+
+
+
+
+
+<script type="text/javascript">
+	
+
+
+
+
+function cycle(){
+
+var orange = ["blob", "close", "door", "pokemon"]
+
+	var math = Math.round(Math.random()*3)
+
+box.innerText = orange[math];
+ 
+ console.log(orange[math])
+}
+
+
+document.addEventListener("keypress", function(event){
+	// console.log(event)
+
+	if (event.key=="s") {
+		console.log("hello?");
+		clearInterval(whatever)
+	}
+
+	else if (event.key=="r") {
+
+		console.log("back online!")
+		whatever = setInterval(cycle,100);
+	}
+} )
+
+
+
+var whatever = setInterval(cycle, 100);
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
